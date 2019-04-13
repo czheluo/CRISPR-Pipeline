@@ -96,6 +96,7 @@ class CrisprRisearchTool(Tool):
         else:
             self.set_error("sgRNA区域生成失败")
 
+            
     def run(self):
         super(CrisprRisearchTool, self).run()
         self.run_riserch2()
