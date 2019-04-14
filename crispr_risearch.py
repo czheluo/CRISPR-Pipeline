@@ -95,10 +95,10 @@ class CrisprRisearchTool(Tool):
             self.logger.info("sgRNA区域生成完成")
         else:
             self.set_error("sgRNA区域生成失败")
-
-            
+     
     def run(self):
         super(CrisprRisearchTool, self).run()
         self.run_riserch2()
         self.run_sgrna_region()
         self.end()
+        
