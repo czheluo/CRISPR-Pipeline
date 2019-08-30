@@ -7,7 +7,7 @@ __author__ = 'Meng Luo'
 __Email__ = 'meng.luo@majorbio.com'
 __copyright__ = 'Copyright (C) 2019 MARJOBIO'
 __license__ = 'GPL'
-__modified__= '20190410'
+__modified__= '20190510'
 
 from biocluster.agent import Agent
 from biocluster.tool import Tool
